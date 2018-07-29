@@ -7,7 +7,7 @@ var heroSchema=new Schema({
     DOB:Date,
     city:Number,
     state:Number,
-    mobile:String,
+    mobile: String,
     address:[
         {street1:String,street2:String}
     ]
